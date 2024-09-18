@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import OAuth from '../components/OAuth';
 import toast from 'react-hot-toast';
-import {server} from '../../constant/config';
+import {server} from '../constant/config';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({});

@@ -18,7 +18,8 @@ import {
   signOut,
 } from '../redux/user/userSlice';
 import toast from 'react-hot-toast';
-import { server } from '../../constant/config';
+import {server} from '../constant/config';
+
 
 export default function Profile() {
   const dispatch = useDispatch();

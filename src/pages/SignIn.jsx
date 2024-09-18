@@ -8,7 +8,8 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import OAuth from '../components/OAuth';
 import toast from 'react-hot-toast';
-import { server } from '../../constant/config';
+import {server} from '../constant/config';
+
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
