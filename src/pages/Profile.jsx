@@ -18,6 +18,7 @@ import {
   signOut,
 } from '../redux/user/userSlice';
 import toast from 'react-hot-toast';
+import { server } from '../../constant/config';
 
 export default function Profile() {
   const dispatch = useDispatch();
@@ -69,7 +70,7 @@ export default function Profile() {
     try {
       dispatch(updateUserStart());
       const res = await fetch(
-        `http://localhost:3000/api/user/update/${currentUser._id}`,
+        `${server}/api/user/update/${currentUser._id}`,
         {
           method: 'POST',
           headers: {
@@ -98,7 +99,7 @@ export default function Profile() {
   const handleDeleteAccount = async () => {
     try {
       dispatch(deleteUserStart());
-      const res = await fetch(`http://localhost:3000/api/user/delete/${currentUser._id}`, {
+      const res = await fetch(`${server}/api/user/delete/${currentUser._id}`, {
         method: 'DELETE',
         headers: { // Add the token here
           'Content-Type': 'application/json',
