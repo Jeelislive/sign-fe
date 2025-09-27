@@ -3,6 +3,9 @@
 **The Most Affordable DocuSign Alternative**  
 Professional document signing at a fraction of the cost. Get all the features you need without the premium price tag.
 
+## Screenshot:
+![Home Screenshot](https://res.cloudinary.com/dupv4u12a/image/upload/v1758952695/Screenshot_from_2025-09-27_11-27-44_vxyw6q.png)
+
 🌐 **Live Demo**: [sign-fe.vercel.app](https://sign-fe.vercel.app)
 
 ---
